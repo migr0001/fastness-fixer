@@ -209,10 +209,6 @@ svg.img-flex {
   width: 100%;
 }
 
-.media {
-  overflow: hidden;
-}
-
 .media-img, .media__img {
   float: left;
 }
@@ -228,14 +224,6 @@ svg.img-flex {
 .media-body, .media__body {
   overflow: hidden;
   min-width: 12em; /* Slightly less than 200px, responsiveness built in */
-}
-
-.icon {
-  display: inline-block;
-  position: relative;
-  background: transparent none no-repeat center center;
-  background-size: contain;
-  vertical-align: middle;
 }
 
 .i-16, .i--16 {
@@ -719,14 +707,6 @@ input::-moz-focus-inner {
   -webkit-appearance: none;
 }
 
-fieldset {
-  padding-left: 0;
-  padding-right: 0;
-
-  border: 0;
-  border-top: 2px solid #666;
-}
-
 legend {
   color: inherit;
   display: table;
@@ -1107,12 +1087,6 @@ select:focus {
 
 a:focus, [tabindex="0"]:focus {
   outline-offset: 3px;
-}
-
-.skip-links {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
 }
 
 .skip-links > li::before {
